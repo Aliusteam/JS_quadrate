@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра квадрат</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <select id="selecti">
+        <option disabled selected>Выберите игру</option>
+        <option value="9">9 квадратов</option>
+        <option value="16">16 квадратов</option>
+        <option value="25">25 квадратов</option>
+    </select>
+    <button class="butt" onclick="func_select(this)">Запустить игру</button>
+
+    <p class=header9></p>
+    <p class=header16></p>
+    <p class=header25></p>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <script src="app2.js"></script>
+
+</body>
+</html>

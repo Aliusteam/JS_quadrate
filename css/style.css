@@ -1,0 +1,32 @@
+.header9 {
+    position: absolute;
+
+    color: #fcbe24;
+    height: 30px;
+
+    border: 0;
+    padding: 0;
+    top: 400px;
+}
+.header16 {
+    position: absolute;
+
+    color: #fcbe24;
+
+    height: 30px;
+
+    border: 0;
+    padding: 0;
+    top: 500px;
+}
+.header25 {
+    position: absolute;
+
+    color: #fcbe24;
+
+    height: 30px;
+
+    border: 0;
+    padding: 0;
+    top: 600px;
+}
